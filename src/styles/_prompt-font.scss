@@ -1,0 +1,17 @@
+@each $n in $font-weightnames {
+    $name: nth($n, 1);
+    $weight: nth($n, 2);
+  
+    @font-face {
+        @include font-include(#{$prompt-font-family}, #{$prompt-font-family}-#{$name}, #{$weight}, normal);
+    }
+    
+    @font-face {
+        @if $name == Regular {
+            @include font-include(#{$prompt-font-family}, #{$prompt-font-family}-Italic, #{$weight}, italic);
+        }
+        @else {
+            @include font-include(#{$prompt-font-family}, #{$prompt-font-family}-#{$name}Italic, #{$weight}, italic);
+        }
+    }
+}

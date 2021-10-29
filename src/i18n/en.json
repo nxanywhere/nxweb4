@@ -1,0 +1,48 @@
+{
+    "nav": {
+        "portfolio": {
+            "title": "MY PORTFOLIO",
+            "desc": "ARRANGEMENT / MIXING / REMiXING / COLLAB"
+        },
+        "freedl": {
+            "title": "FREE DOWNLOADS",
+            "desc": "FREE DOWNLOAD UTILITY SOFTWARE"
+        },
+        "tutorial": {
+            "title": "TUTORIAL",
+            "desc": "HOW TO BASIC AND ADVANCED / TIPS"
+        },
+        "donate": {
+            "title": "DONATE",
+            "desc": "SUPORT FOR ME!! (TIPME & BUYME A COFFEE)"
+        },
+        "discordserv": {
+            "title": "DISCORD SERVER",
+            "desc": "JOINDISCORD (NXHOUSE STUDIO)"
+        },
+        "xsbot": {
+            "title": "XSBOT",
+            "desc": "MUSICBOT DISCORD"
+        },
+        "merch": {
+            "title": "MERCH",
+            "desc": "STORE & MEMBERSHIP"
+        }
+    },
+    "setting": {
+        "header": "Settings",
+        "theme": {
+            "title": "Theme",
+            "desc": "Choose Dark or Light Mode"
+        },
+        "language": {
+            "title": "Language",
+            "desc": "Choose Language"
+        }
+    },
+    "dark": "Dark",
+    "light": "Light",
+    "thai": "Thai",
+    "eng": "English",
+    "navigation": "NAVIGATION WITH SHORTCUT"
+}

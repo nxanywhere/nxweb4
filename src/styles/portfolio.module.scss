@@ -1,0 +1,175 @@
+@import '../styles/variables';
+
+.container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.profile_section {
+    margin-bottom: 2rem;
+}
+
+.profile_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    border: 2px solid transparent;
+    border-color: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+        width: 128px;
+        height: 128px;
+    }
+}
+
+
+.profile_desc {
+    margin-bottom: 2rem;
+
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 800;
+        letter-spacing: 12px;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+    p {
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    svg {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+.card {
+    padding: 1rem;
+    border: 1px solid rgba(248, 231, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.4);
+    border-radius: 1.5rem;
+    backdrop-filter: blur(30px);
+    margin-bottom: 2rem;
+
+    header {
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+.iframe_container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.iframe_responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: $md + 0.5px) {
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .profile_row {
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+    }
+
+    .profile_section {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex: 0.5;
+
+        h1, h2, p {
+            text-align: left;
+        }
+    }
+
+    .profile_wrap {
+        width: 200px;
+        height: 200px;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .profile_desc {
+        h1 {
+            font-size: 6rem;
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: 0;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+    }
+
+    .contact_card {
+        width: 50%;
+        flex: 0.5;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex: 0.5;
+        margin-right: 4rem;
+
+        section {
+            flex: 0.5;
+
+            &:first-child {
+                margin-right: 1rem;
+            }
+            &:last-child {
+                margin-left: 1rem;
+            }
+        }
+    }
+}

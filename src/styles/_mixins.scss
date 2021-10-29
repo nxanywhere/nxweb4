@@ -1,0 +1,12 @@
+@mixin font-include($fontname, $name, $weight, $style) {
+    font-family: "#{$fontname}";
+    src: url(../fonts/#{$fontname}/#{$name}.ttf) format('truetype');
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@mixin font-class($weight, $style) {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+}

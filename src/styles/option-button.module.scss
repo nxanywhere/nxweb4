@@ -1,0 +1,61 @@
+@import './variables';
+
+.wrap {
+    position: relative;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: inherit;
+    font-size: 0.8rem;
+    font-weight: 300;
+    min-width: 80px;
+    min-height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    border-color: inherit;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    
+    svg {
+        width: 14px;
+        height: 14px;
+        margin-left: 0.5rem;
+    }
+}
+
+.option {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 90px;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(20px);
+    border-radius: 6px;
+    z-index: 10;
+    
+    li {
+        display: flex;
+        flex-direction: row;
+        
+        
+        color: #333;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0.5rem 1.5rem;
+        cursor: pointer;
+
+        svg {
+            width: 16px;
+            height: 16px;
+            margin-left: -1rem;
+        }
+
+        &:hover {
+            color: #000;
+        }
+    }
+}

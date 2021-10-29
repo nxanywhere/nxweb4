@@ -1,0 +1,30 @@
+[
+    {
+        "name": "portfolio",
+        "url": "/portfolio"
+    },
+    {
+        "name": "freedl",
+        "url": "/freedowmloads"
+    },
+    {
+        "name": "tutorial",
+        "url": "/tutorials"
+    },
+    {
+        "name": "donate",
+        "url": "https://tipme.in.th/nxdonatetome"
+    },
+    {
+        "name": "discordserv",
+        "url": "/discord-server"
+    },
+    {
+        "name": "xsbot",
+        "url": "/xsbot"
+    },
+    {
+        "name": "merch",
+        "url": "/merch"
+    }
+]

@@ -1,0 +1,14 @@
+$prompt-font-family: "Prompt";
+$montserrat-font-family: "Montserrat";
+$font-weightnames: Thin 100, ExtraLight 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800, Black 900;
+
+$font-family: $montserrat-font-family, $prompt-font-family;
+
+$hover-color: rgb(224, 172, 255);
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;

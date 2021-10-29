@@ -1,0 +1,16 @@
+.app-root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+} 
+
+.mb-1 {
+    margin-bottom: 1rem;
+}

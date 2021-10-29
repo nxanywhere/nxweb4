@@ -1,0 +1,56 @@
+@import '../styles/variables';
+
+.container {
+    background-color: #000;
+    // margin-top: auto;
+    // margin-bottom: auto;
+}
+
+
+.card {
+    padding: 1rem;
+    border: 1px solid rgba(248, 231, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.25rem;
+    backdrop-filter: blur(30px);
+    margin-bottom: 2rem;
+
+    header {
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+
+@media (min-width: $md + 1px) {
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+
+
+    .row {
+        display: flex;
+        // flex-direction: row;
+        // flex: 0.5;
+        // margin-right: 4rem;
+
+        section {
+            flex: 0.5;
+
+            &:first-child {
+                margin-right: 1rem;
+            }
+            &:last-child {
+                margin-left: 1rem;
+            }
+        }
+    }
+}

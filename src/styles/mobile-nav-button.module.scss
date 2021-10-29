@@ -1,0 +1,32 @@
+@import './variables';
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn {
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.25s ease;
+
+    &:hover {
+        color: $hover-color;
+    }
+
+    svg {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+.close {
+    color: #fff;
+    
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+}
